@@ -15,6 +15,8 @@
 		B2D074B125FA4A5400F25CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D074AF25FA4A5400F25CD3 /* LaunchScreen.storyboard */; };
 		B2D074BC25FA4A5500F25CD3 /* SampleMFComposeViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D074BB25FA4A5500F25CD3 /* SampleMFComposeViewControllerTests.swift */; };
 		B2D074C725FA4A5500F25CD3 /* SampleMFComposeViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D074C625FA4A5500F25CD3 /* SampleMFComposeViewControllerUITests.swift */; };
+		B2D074DD25FA4C0D00F25CD3 /* Mail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2D074DC25FA4C0D00F25CD3 /* Mail.storyboard */; };
+		B2D074E325FA4EC600F25CD3 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2D074E225FA4EC600F25CD3 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B2D074C225FA4A5500F25CD3 /* SampleMFComposeViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleMFComposeViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D074C625FA4A5500F25CD3 /* SampleMFComposeViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleMFComposeViewControllerUITests.swift; sourceTree = "<group>"; };
 		B2D074C825FA4A5500F25CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2D074DC25FA4C0D00F25CD3 /* Mail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Mail.storyboard; sourceTree = "<group>"; };
+		B2D074E225FA4EC600F25CD3 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2D074E325FA4EC600F25CD3 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,7 @@
 				B2D074BA25FA4A5500F25CD3 /* SampleMFComposeViewControllerTests */,
 				B2D074C525FA4A5500F25CD3 /* SampleMFComposeViewControllerUITests */,
 				B2D074A225FA4A4F00F25CD3 /* Products */,
+				B2D074E125FA4EC500F25CD3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +109,7 @@
 				B2D074A625FA4A4F00F25CD3 /* SceneDelegate.swift */,
 				B2D074A825FA4A4F00F25CD3 /* ViewController.swift */,
 				B2D074AA25FA4A4F00F25CD3 /* Main.storyboard */,
+				B2D074DC25FA4C0D00F25CD3 /* Mail.storyboard */,
 				B2D074AD25FA4A5400F25CD3 /* Assets.xcassets */,
 				B2D074AF25FA4A5400F25CD3 /* LaunchScreen.storyboard */,
 				B2D074B225FA4A5400F25CD3 /* Info.plist */,
@@ -126,6 +133,14 @@
 				B2D074C825FA4A5500F25CD3 /* Info.plist */,
 			);
 			path = SampleMFComposeViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		B2D074E125FA4EC500F25CD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2D074E225FA4EC600F25CD3 /* MessageUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2D074B125FA4A5400F25CD3 /* LaunchScreen.storyboard in Resources */,
+				B2D074DD25FA4C0D00F25CD3 /* Mail.storyboard in Resources */,
 				B2D074AE25FA4A5400F25CD3 /* Assets.xcassets in Resources */,
 				B2D074AC25FA4A4F00F25CD3 /* Main.storyboard in Resources */,
 			);
